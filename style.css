@@ -1,0 +1,161 @@
+
+body{
+    background-color: beige;
+    font-family: 'Arimo', sans-serif;
+    
+}
+
+@media only screen and (max-width: 850px) {
+        body{
+            font-size: 75%
+        }
+} 
+
+aside{ 
+background: black;
+border-radius: 1vw;
+color: beige;
+display: flex;
+flex-direction: column;
+position: absolute;
+padding: 3vw;
+padding-bottom: 30%;
+width: 17% ;
+}
+
+img{
+    border-radius: 30vw;
+    margin-bottom: 33%;
+    width: 120%;
+    right: 1.5vw;
+    position: relative;
+}
+
+#close{
+    width: 20px;
+    height: auto;
+    position: absolute;
+    top: 20em;
+    right:  15%;
+    z-index: 10;
+}
+
+
+#univPalermo{
+position: absolute;    
+position: absolute; 
+    bottom: 13vw;
+    left:38%;  
+    background: white;
+    display: none;
+    padding: 5%;
+    border-radius: 30vw;
+}
+
+#univUrbanismo{
+    position: absolute; 
+    bottom: 15vw;
+    left:35%;  
+    background: white;
+    display: none;
+    padding: 5%;
+    border-radius: 30vw;
+}
+#closex{
+    width: 3%;
+}
+#univUrbanismo img{
+    position: absolute;
+    top: 10%;
+}
+#univPalermo img{
+    position: absolute;
+    top: 10%;
+}
+#unc img{
+    position: absolute;
+    top: 10%;
+}
+#unc{
+    position: absolute; 
+    bottom: 15vw;
+    left:35%;  
+    background: white;
+    display: none;
+    padding: 5%;
+    border-radius: 30vw;
+}
+
+#bigPhoto{
+
+    width: 80%;
+    height: auto;
+    position: absolute;
+    z-index: +1;
+    top: 33%;
+
+}
+@media only screen and(max-width: 435px),( max-height: 563px){
+
+    #close{
+        width: 20px;
+        height: auto;
+        position: absolute;
+        top: 17em;
+        right:  15%;
+        z-index: 10;
+    }
+
+}
+#imgBig{
+    display: none;
+}
+
+aside hr{
+    position: relative;
+    width: 80% ;
+    right: 10%;
+}
+
+
+p{
+    display: inline;
+    flex-direction: column;
+    color: beige;
+   
+}
+
+h1{
+    font-size: 5vw;
+    display: block;
+    position: absolute;
+    top: -2vw;
+    background-color: gold;
+    padding: 2% 45% 2% 30%;
+    z-index: -1;
+}
+
+aside h2{
+    margin-bottom: 1%;
+}
+h3{
+    margin-top: 5%;
+}
+
+aside h4{
+
+    margin-top: 35%;
+    margin-bottom: 7%;
+
+}
+aside h5 {
+    margin: 13% 0% 5% 0%;
+}
+
+main{
+    display: block;
+    left:30%;
+    top: 25vw;
+    position: relative;
+
+}
